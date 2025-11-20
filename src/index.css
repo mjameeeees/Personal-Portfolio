@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("./assets/fonts/Inter/Inter_24pt-Bold.ttf");
+}
+
