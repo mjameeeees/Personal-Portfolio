@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Certification(){
       const certifications = [
     {
-      title: "Intro to Linux Foundation",
+      title: "Introduction to Linux Foundation(LFS101)",
       organization: "The Linux Foundation"
     },
     {

@@ -25,7 +25,7 @@ export default function Portfolio() {
         <Certification/>
         <Projects/>
       </div>
-<div className=" w-full mt-3 gap-6">
+<div className=" w-full mt-3">
         <FactsAndTrivia/>
       </div>
 <div className="flex flex-wrap gap-6 mt-3 w-full">
