@@ -11,7 +11,7 @@ return (
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
     >
       <div className="flex flex-row gap-3">
-        <img className="w-7 h-7" src="./public/icons/aboutme.png" alt="" />
+        <img className="w-7 h-7" src="./icons/aboutme.png" alt="" />
       <h2 className="text-2xl font-bold mb-6">About Me</h2>
       </div>
       <div className="space-y-4 text-gray-800 leading-relaxed">
