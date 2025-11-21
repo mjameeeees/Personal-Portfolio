@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from 'react';
 import Name from './components/Name';
 import Experience from './components/Experience';
 import About from './components/About';
@@ -14,7 +13,6 @@ export default function Portfolio() {
   
   return (
     <>
- 
       <Name/>
   <div className="flex flex-wrap gap-6 w-full">
     <About />
@@ -30,7 +28,7 @@ export default function Portfolio() {
 <div className=" w-full mt-3 gap-6">
         <FactsAndTrivia/>
       </div>
-<div className="flex flex-wrap gap-6 w-full">
+<div className="flex flex-wrap gap-6 mt-3 w-full">
       <Socials/>
       <Contacts/>
       <GetInTouch/>

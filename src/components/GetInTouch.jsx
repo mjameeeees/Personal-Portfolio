@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 export default function GetInTouch() {
   return (
-    <motion.div className="flex-[3] flex items-center">
+    <motion.div className="min-w-[300px] flex-1 flex-[3] flex items-center">
     <div className=" border border-gray-300 rounded-3xl p-8 bg-white">
       <h2 className="text-2xl font-bold mb-4 text-gray-800">Get in touch</h2>
       <p className="text-gray-700 text-base leading-relaxed">

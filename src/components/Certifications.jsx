@@ -27,10 +27,17 @@ export default function Certification(){
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
     >
-   <div className="flex flex-row gap-3">
+      <div className="flex flex-row justify-between">
+  <div className="flex flex-row gap-3">
         <img className="w-7 h-7" src="./icons/certificate.png" alt="" />
       <h2 className="text-2xl font-bold mb-6">Certifications</h2>
       </div>
+
+      <div>
+        <a href="" className="text-sm">View All &gt;</a>
+      </div>
+      </div>
+ 
       <div className="space-y-4"
         
       

@@ -7,13 +7,13 @@ export default function Socials() {
   ];
 
   return (
-   <motion.div className="flex-[2] flex items-center border border-gray-100 rounded-3xl mt-3"
+  <motion.div className="min-w-[300px] flex-2 items-center border-gray-300 rounded-3xl"
       whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
    >
-    <div className="w-full max-w-xs  border border-gray-300 rounded-3xl p-8">
+    <div className="w-full flex-1  border border-gray-300 rounded-3xl p-8">
       <h2 className="text-2xl font-bold mb-6 text-gray-800">Socials</h2>
       
       <div className="space-y-4">
