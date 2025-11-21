@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 export default function Socials() {
   const socialLinks = [
-    { name: 'LinkedIn', url: '#', src: "./public/icons/linkedin.png" },
-    { name: 'Github', url: '#', src: "./public/icons/github.png" },
-    { name: 'Upwork', url: '#', src: "./public/icons/upwork.png" }
+    { name: 'LinkedIn', url: '#', src: "./icons/linkedin.png" },
+    { name: 'Github', url: '#', src: "./icons/github.png" },
+    { name: 'Upwork', url: '#', src: "./icons/upwork.png" }
   ];
 
   return (
-   <motion.div className="flex-[2] flex items-center border border-gray-100 rounded-3xl"
+   <motion.div className="flex-[2] flex items-center border border-gray-100 rounded-3xl mt-3"
       whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}

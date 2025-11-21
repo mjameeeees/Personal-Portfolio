@@ -21,14 +21,14 @@ export default function Projects() {
 
   return (
 <motion.div
-  className="flex-[2] p-8 bg-white border border-gray-300 rounded-3xl shadow-sm"
+  className="min-w-[300px] flex-1 mt-3 p-8 bg-white border border-gray-300 rounded-3xl shadow-sm"
   whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
 >
    <div className="flex flex-row gap-3">
-        <img className="w-7 h-7" src="./public/icons/projects.png" alt="" />
+        <img className="w-7 h-7" src="./icons/projects.png" alt="" />
       <h2 className="text-2xl font-bold mb-6">Recent Projects</h2>
       </div>
   <div className="space-y-4">

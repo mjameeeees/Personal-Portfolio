@@ -16,21 +16,21 @@ export default function Portfolio() {
     <>
  
       <Name/>
-        <div className='flex gap-3'>
-          <About/>
-          <Experience/>
-        </div>
+  <div className="flex flex-wrap gap-6 w-full">
+    <About />
+    <Experience />
+</div>
       <div className='mt-3'>
           <TechStack/>
       </div>
-      <div className='flex gap-3 mt-3'>
+  <div className="flex flex-wrap gap-6 w-full">
         <Certification/>
         <Projects/>
       </div>
-      <div className='mt-3'>
+<div className=" w-full mt-3 gap-6">
         <FactsAndTrivia/>
       </div>
-      <div className='flex gap-3 mt-3'>
+<div className="flex flex-wrap gap-6 w-full">
       <Socials/>
       <Contacts/>
       <GetInTouch/>

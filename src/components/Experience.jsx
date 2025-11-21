@@ -20,14 +20,14 @@ const experiences = [
   ];
 
   return (
-    <motion.div className="max-w-4xl p-8 bg-white border border-gray-300 rounded-3xl"
+    <motion.div className="min-w-[300px] flex-1 p-8 bg-white border border-gray-300 rounded-3xl"
     whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
     >
    <div className="flex flex-row gap-3">
-        <img className="w-7 h-7" src="./public/icons/experience.png" alt="" />
+        <img className="w-7 h-7" src="./icons/experience.png" alt="" />
       <h2 className="text-2xl font-bold mb-6">Experience</h2>
       </div>      
       <ul className="space-y-0">
@@ -44,8 +44,8 @@ const experiences = [
               )}
             </div>
             <div className=" pb-6">
-              <h3 className="font-bold text-lg">{exp.title}</h3>
-              <p className="text-gray-600 text-sm">{exp.company}</p>
+              <h3 className="font-bold text-sm">{exp.title}</h3>
+              <p className="text-gray-600 text-[12px]">{exp.company}</p>
             </div>
           </li>
         ))}

@@ -9,7 +9,7 @@ export default function FactsAndTrivia() {
     >
       <div className="w-full max-w-full ">
    <div className="flex flex-row gap-3">
-        <img className="w-7 h-7" src="./public/icons/trivia.png" alt="" />
+        <img className="w-7 h-7" src="./icons/trivia.png" alt="" />
       <h2 className="text-2xl font-bold mb-6">Facts and Trivia</h2>
       </div>        
         <div className="mb-6">

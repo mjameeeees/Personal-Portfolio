@@ -12,7 +12,7 @@ export default function GetInTouch() {
             whileTap={{ scale: 0.97 }}
         >
             Send Message
-              <img className="h-4 w-4 " src="./public/icons/send.png" alt="" />
+              <img className="h-4 w-4 " src="./icons/send.png" alt="" />
         </motion.button>
     </div>
   </motion.div>

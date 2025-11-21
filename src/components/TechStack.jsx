@@ -18,7 +18,9 @@ export default function TechStack(){
       "Java",
       "Spring Boot",
       "Python",
-      "Flask"
+      "Flask",
+      "SQL"
+      
     ],
     "System Administrator": [
       "Linux",
@@ -29,15 +31,17 @@ export default function TechStack(){
   };
 
   return (
-    <motion.div className="max-w-full p-8 bg-white border border-gray-300 rounded-3xl"
+    <motion.div className="max-w-auto p-8 bg-white border border-gray-300 rounded-3xl"
            whileTap={{ scale: 0.97 }}
 
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
     >
-      <h2 className="text-2xl font-bold mb-6">Tech Stack</h2>
-      
+<div className="flex flex-row gap-3">
+        <img className="w-7 h-7" src="./icons/techstack.png" alt="" />
+      <h2 className="text-2xl font-bold mb-6">Tech Stacks</h2>
+      </div>      
       <div className="space-y-6">
         {Object.entries(techStack).map(([category, technologies]) => (
           <div key={category}>
