@@ -32,8 +32,6 @@ export default function TechStack(){
 
   return (
     <motion.div className="max-w-auto p-8 bg-white border border-gray-300 rounded-3xl"
-           whileTap={{ scale: 0.97 }}
-
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}

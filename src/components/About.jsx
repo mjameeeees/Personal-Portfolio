@@ -5,7 +5,6 @@ export default function About () {
 return (
  <motion.div 
   className="min-w-[300px] flex-2 p-8 bg-white border border-gray-300 rounded-3xl"
-  whileTap={{ scale: 0.97 }}
   initial={{ opacity: 0, y: 30 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1 }}

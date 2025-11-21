@@ -1,14 +1,13 @@
 import { motion } from "framer-motion";
 export default function Socials() {
   const socialLinks = [
-    { name: 'LinkedIn', url: '#', src: "./icons/linkedin.png" },
-    { name: 'Github', url: '#', src: "./icons/github.png" },
-    { name: 'Upwork', url: '#', src: "./icons/upwork.png" }
+    { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mark-james-dinong-48a11128b/', src: "./icons/linkedin.png" },
+    { name: 'Github', url: 'https://github.com/mjameeeees', src: "./icons/github.png" },
+    { name: 'Upwork', url: 'https://www.upwork.com/freelancers/~01854892e5ce67fd34', src: "./icons/upwork.png" }
   ];
 
   return (
   <motion.div className="min-w-[300px] flex-2 items-center border-gray-300 rounded-3xl"
-      whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}

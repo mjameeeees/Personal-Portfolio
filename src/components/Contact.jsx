@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 export default function Contacts() {
   return (
   <motion.div className="min-w-[300px] flex-3 items-center border border-gray-300 rounded-3xl"
-      whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}

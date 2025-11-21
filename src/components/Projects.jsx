@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export default function Projects() {
   const projects = [
     {
@@ -22,7 +23,6 @@ export default function Projects() {
   return (
 <motion.div
   className="min-w-[300px] flex-1 mt-3 p-8 bg-white border border-gray-300 rounded-3xl shadow-sm"
-  whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
@@ -34,7 +34,9 @@ export default function Projects() {
       </div>
 
       <div>
-          <a className="text-sm" href="">View All &gt;</a>
+        <Link to="/projects">
+            <a className="text-sm" href="">View All &gt;</a>
+        </Link>
       </div>
   </div>
  

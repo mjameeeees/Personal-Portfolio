@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 export default function Certification(){
       const certifications = [
     {
@@ -22,7 +23,6 @@ export default function Certification(){
   return (
   <motion.div
       className="min-w-[300px] mt-3 flex-1 p-8 bg-white border border-gray-300 rounded-3xl shadow-sm"
-      whileTap={{ scale: 0.97 }}
     initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ type: "spring", stiffness: 200, damping: 12, duration: 1, ease: "easeOut"  }}
@@ -34,7 +34,7 @@ export default function Certification(){
       </div>
 
       <div>
-        <a href="" className="text-sm">View All &gt;</a>
+          <Link to="/certifications" className="text-sm">View All &gt; </Link>
       </div>
       </div>
  
